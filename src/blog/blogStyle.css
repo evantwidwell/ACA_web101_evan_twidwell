@@ -2,10 +2,12 @@
     border: 1px solid red;
     height: 90%;
     width: 90%;
-    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: #5e5c5c;
+    margin: 20px;
 }
+header
 #header .navigation
 {
 	font-size: 11px;
@@ -14,12 +16,15 @@
     background-color: #3305d8;
     height: 20px;
     justify-content: flex-end;
+    text-align: right;
+
 }
 #header .navigation a,
 #site_navigation h1 a
 {
 	font-family: Verdana, Geneva, sans-serif;
     font-size: 11px;
+   
     
 }
 #header .navigation a:link,
