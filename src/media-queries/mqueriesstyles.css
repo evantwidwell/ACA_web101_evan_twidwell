@@ -1,0 +1,75 @@
+span.b {
+    display: inline-block;
+    width: 500px;
+    height: 500px;   
+    background-color: yellow; 
+  }   
+
+span.headline {
+    display: block; 
+    position: absolute;
+    top:0;
+    left:0;
+    width: 550px;
+    height: 500px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow;
+}
+span.sidebar {
+    
+    position: absolute;
+    left: 576px; 
+    top: 0;
+    display: block; 
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    border: 1px solid blue;
+    
+}
+div.list {
+    position: absolute;
+    left: 0px; 
+    top: 550px;
+    display: block; 
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    border: 1px solid blue;
+
+}
+    
+ 
+/* Small and up (Landscape Phones) */
+@media (max-width: 576px)  {
+    body{background: purple;}
+    span.sidebar {
+        visibility: hidden;
+        position: absolute;
+        left: 576px; 
+        top: 0;
+        display: block; 
+        width: 300px;
+        height: 200px;
+        padding: 5px;
+        border: 1px solid blue;
+        
+    }
+    
+}
+
+/* Medium and up (Tablets) */
+@media (min-width:576px){
+    div.list {
+        visibility: hidden;
+    }
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+    div.list {
+        visibility: hidden;
+    }
+}
