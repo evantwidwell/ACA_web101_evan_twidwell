@@ -43,7 +43,7 @@ div.list {
  
 /* Small and up (Landscape Phones) */
 @media (max-width: 576px)  {
-    body{background: purple;}
+    
     span.sidebar {
         visibility: hidden;
         position: absolute;
