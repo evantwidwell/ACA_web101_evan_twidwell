@@ -1,0 +1,56 @@
+.container{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 3fr 15fr 2fr 1.25fr;
+}
+
+.header{
+  grid-column: 1/3;
+  grid-row: 1/2;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.header h2{
+  justify-items: center;
+}
+.header ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.header li{
+  margin: 10px;
+}
+.image{
+  grid-column: 1/3;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-image: url("https://freewebsitetemplates.com/preview/mustacheenthusiast/images/the-beacon.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid orange;
+}
+.example{
+  grid-column: 1/3;
+  grid-row: 3/4;
+  border: solid purple 1px;
+}
+.footer{
+  grid-column: 1/3;
+  grid-row: 4/5;
+  border: solid green 1px;
+}
