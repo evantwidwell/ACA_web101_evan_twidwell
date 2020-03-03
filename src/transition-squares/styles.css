@@ -23,12 +23,15 @@
   margin: 5px;
   transition: all 1s;
 }
-.box:nth-child(odd):hover{
+.main-container:hover .box:nth-child(odd){
   width: 25px;
   height: 25px;
+  transform: translate(-250px) rotateZ(-90deg);
+  background-color: chartreuse;
 }
-.box:nth-child(even):hover{
+.main-container:hover .box:nth-child(even){
   width: 100px;
   height: 100px;
-  transform: translateX(250px);
+  transform: translateX(250px) rotateZ(90deg);
+  background-color: darkblue;
 }
