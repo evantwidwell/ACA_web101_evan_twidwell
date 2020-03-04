@@ -1,0 +1,21 @@
+.box{
+  height: 50px;
+  width: 50px;
+  border: solid black 1px;
+  background-color: red;
+  margin: 5px;
+  transition: all 1s;
+}
+.main-container:hover .box:nth-child(odd){
+  width: 25px;
+  height: 25px;
+  transform: translate(-250px) rotateZ(-90deg);
+  background-color: chartreuse;
+}
+.main-container:hover .box:nth-child(even){
+  width: 100px;
+  height: 100px;
+  transform: translateX(250px) rotateZ(90deg);
+  background-color: darkblue;
+  
+}
