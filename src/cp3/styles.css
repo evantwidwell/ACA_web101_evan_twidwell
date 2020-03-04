@@ -7,6 +7,7 @@ body {
 }
 .img-thumbnail{
   height: 250px;
+  width: auto;
 }
 .video2{
   height: 400px;
@@ -21,8 +22,12 @@ body {
   margin: auto; 
   display: block;
   }
-  .card{
-    margin-left: 15px;
-    margin-right: 15px;
-    
-  }
+.card{
+    margin: 15px;
+}
+.bxshadow:hover{
+  box-shadow: darkgray 3 3 0 0;
+}
+.aboutimage{
+  height: 300px;
+}
