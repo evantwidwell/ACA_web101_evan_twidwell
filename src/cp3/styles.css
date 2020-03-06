@@ -7,7 +7,7 @@ body {
   -o-background-size: cover;
 }
 .nav-link:hover{
-  box-shadow: gray 2px 0px 0px 0px;
+  box-shadow: gray 2px 4px 10px 0px;
 }
 .img-thumbnail{
   height: 250px;
@@ -29,9 +29,9 @@ body {
 .card{
     margin: 15px;
 }
-.bxshadow:hover{
+/* .bxshadow:hover{
   box-shadow: darkgray 3 3 0 0;
-}
+} */
 .aboutimage{
   height: 300px;
 }
@@ -57,6 +57,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 4px;
 }
 
 .disc {
@@ -91,4 +92,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 4px;
+  margin-left: 5px;
 }
