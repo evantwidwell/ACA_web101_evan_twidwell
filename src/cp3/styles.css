@@ -1,0 +1,97 @@
+/* Custom changes to various pieces of my pages. I used one CSS for the whole site to keep things simple and allow me to share custom styled elements across the suite of pages. */
+body {
+  background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.nav-link:hover{
+  box-shadow: gray 2px 4px 10px 0px;
+}
+.img-thumbnail{
+  height: 250px;
+  width: auto;
+}
+.video2{
+  height: 400px;
+  align-items: center;
+}
+/* .carimage{ */
+  /* height: 350px; */
+  /* translate: 90deg; */
+/* } */
+.carousel-item img{
+  width: 400px;
+  margin: auto; 
+  display: block;
+  }
+.card{
+    margin: 15px;
+}
+/* .bxshadow:hover{
+  box-shadow: darkgray 3 3 0 0;
+} */
+.aboutimage{
+  height: 300px;
+}
+.col-sm-8{
+  background-color: ghostwhite;
+  border-radius: 3px;
+}
+#board {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 100%;
+}
+.column {
+  width: 500px;
+  height: 400px;
+  /* background-color: #f2f2f2; */
+  background: url("./images/IMG_6645.jpeg") no-repeat center center fixed;
+  /* background-size: 500px; */
+  background-position: initial;
+  background-repeat: repeat-x;
+  border-right: 1px solid #808080;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 4px;
+}
+
+.disc {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.red {
+  background-image: url("./images/icons8-grandpa-climber-48.png");
+}
+
+.black {
+  background-image: url("./images/icons8-grandpa-climber-48.png");
+}
+
+.row {
+  clear: both;
+}
+
+#announce-winner {
+  clear: both;
+  font-size: 50px;
+}
+.head3{
+  height: 400px;
+  width: 400px;
+  background-color: ghostwhite;
+  opacity: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-left: 5px;
+}
