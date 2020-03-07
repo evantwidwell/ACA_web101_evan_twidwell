@@ -1,0 +1,429 @@
+
+.box{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 1fr 4fr 3fr 2fr;
+  grid-template-columns: 2fr 8fr;
+}
+
+.header1{
+  grid-row: 1/2;
+  grid-column: 2/3;
+  border: 1px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.social{
+  height: 100%;
+  width: 33%;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar{
+  grid-column: 1/2;
+  grid-row: 1/8;
+  background-color: darkgrey;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: center;
+  margin: 1px solid black;
+}
+.sidebarbox{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-block-start: 1px solid black;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.graphrow{
+  grid-row: 2/4;
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  background-color: whitesmoke;
+  justify-items: center;
+  align-items: center;
+}
+
+.graphbox1{
+  height: 100%;
+  width: 100%;
+  border: 1px black solid;
+  background-image: url("https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3Abef29a9072cee56d1926b221311ad6c0e5fefd491f41b6593e0d0745%2BIMAGE_TINY%2BIMAGE_TINY.1");
+  background-size: 100% 100%;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid gray;
+  
+}
+.graphbox2{
+  height: 100%;
+  width: 100%;
+  border: 1px black solid;
+  background-image: url("https://root.cern/doc/master/pict1_graph.C.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid gray;
+
+}
+.footerbox{
+  grid-row: 4/5;
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-items: center;
+}
+.foot1{
+  height: 100%;
+  width: 100%;
+  box-shadow: salmon 2px;
+  display: flex;
+  background-color: thistle;
+  justify-content: center;
+  padding: 4px solid black;
+  align-items: center;
+ 
+
+}
+.foot2{
+height: 100%;
+width: 100%;
+box-shadow: salmon 2px;
+display: flex;
+background-color: rosybrown;
+justify-content: center;
+padding: 4px solid black;
+align-items: center;
+}
+.foot3{
+height: 100%;
+width: 100%;
+display:flex;
+box-shadow: salmon 2px;
+background-color: salmon;
+justify-content: center;
+padding: 4px solid black;
+align-items: center;
+}
+.foot4{
+height: 100%;
+width: 100%;
+box-shadow: salmon 2px;
+background-color: pink;
+display:flex;
+justify-content: center;
+padding: 4px solid black;
+align-items: center;
+text-align: center;
+align-content: center;
+}
+
+
+
+/* Tablet */
+@media (max-width: 850px) {
+  .box{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 1fr 4fr 3fr 2fr 2fr;
+    grid-template-columns: 2fr 8fr;
+  }
+
+  .header1{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    border: 1px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .social{
+    height: 100%;
+    width: 33%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sidebar{
+    grid-column: 1/3;
+    grid-row: 7/8;
+    background-color: darkgrey;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    margin: 1px solid black;
+  }
+  .sidebar ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-block-start: 1px solid black;
+    justify-content: center;
+    align-content: center;
+  }
+  .sidebar li{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: solid 1% black;
+  }
+  .graphrow{
+    grid-row: 2/4;
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    background-color: whitesmoke;
+  }
+  
+  .graphbox1{
+    height: 100%;
+    width: 100%;
+    border: 1px black solid;
+    background-image: url("https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3Abef29a9072cee56d1926b221311ad6c0e5fefd491f41b6593e0d0745%2BIMAGE_TINY%2BIMAGE_TINY.1");
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid gray;
+    
+  }
+  .graphbox2{
+    height: 100%;
+    width: 100%;
+    border: 1px black solid;
+    background-image: url("https://root.cern/doc/master/pict1_graph.C.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid gray;
+  
+  }
+  .footerbox{
+    grid-row: 4/6;
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-items: center;
+  }
+  .foot1{
+    height: 100%;
+    width: 100%;
+    box-shadow: salmon 2px;
+    display: flex;
+    background-color: thistle;
+    justify-content: center;
+    padding: 4px solid black;
+    align-items: center;
+   
+
+}
+.foot2{
+  height: 100%;
+  width: 100%;
+  box-shadow: salmon 2px;
+  display: flex;
+  background-color: rosybrown;
+  justify-content: center;
+  padding: 4px solid black;
+  align-items: center;
+}
+.foot3{
+  height: 100%;
+  width: 100%;
+  display:flex;
+  box-shadow: salmon 2px;
+  background-color: salmon;
+  justify-content: center;
+  padding: 4px solid black;
+  align-items: center;
+}
+.foot4{
+  height: 100%;
+  width: 100%;
+  box-shadow: salmon 2px;
+  background-color: pink;
+  display:flex;
+  justify-content: center;
+  padding: 4px solid black;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+}
+/* Phone */
+@media only screen and (max-width: 576px) {
+  .box{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 1fr 8fr 6fr 2fr;
+    grid-template-columns: 1fr;
+  }
+
+  .header1{
+    grid-row: 1/3;
+    grid-column: 1/3;
+    border: 1px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .social{
+    width: 100%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+  }
+  .sidebar{
+    width: 100%;
+    height: 100%;
+    grid-row: 3/6;
+    grid-column: 1;
+    background-color: darkgrey;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    margin: 1px solid black;
+  }
+  .sidebar ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-block-start: 1px solid black;
+    justify-content: center;
+    align-content: center;
+  }
+  .sidebar li{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: solid 1% black;
+  }
+  .graphrow{
+    
+    grid-row: 6/8;
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+  }
+  
+  .graphbox1{
+    height: 100%;
+    width: 100%;
+    border: 1px black solid;
+    background-image: url("https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3Abef29a9072cee56d1926b221311ad6c0e5fefd491f41b6593e0d0745%2BIMAGE_TINY%2BIMAGE_TINY.1");
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid gray;
+    
+  }
+  .graphbox2{
+    height: 100%;
+    width: 100%;
+    border: 1px black solid;
+    background-image: url("https://root.cern/doc/master/pict1_graph.C.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid gray;
+  }
+  .footerbox{
+    grid-row: 6/8;
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: flex-start;
+  }
+  .foot1{
+    height: 100%;
+    width: 100%;
+    box-shadow: salmon 2px;
+    display: flex;
+    background-color: thistle;
+    justify-content: center;
+    padding: 4px solid black;
+    align-items: center;
+}
+.foot2{
+  height: 100%;
+  width: 100%;
+  box-shadow: salmon 2px;
+  display: flex;
+  background-color: rosybrown;
+  justify-content: center;
+  padding: 4px solid black;
+  align-items: center;
+}
+.foot3{
+  height: 100%;
+  width: 100%;
+  display:flex;
+  box-shadow: salmon 2px;
+  background-color: salmon;
+  justify-content: center;
+  padding: 4px solid black;
+  align-items: center;
+}
+.foot4{
+  height: 100%;
+  width: 100%;
+  box-shadow: salmon 2px;
+  background-color: pink;
+  display:flex;
+  justify-content: center;
+  padding: 4px solid black;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+}
+
+
+
+ 
